@@ -29,7 +29,7 @@ export const createNotificationSlice : StateCreator<NotificationSliceType & Favo
         })
         setTimeout(() => {
             get().hideNotification()
-        }, 5000);
+        }, 4000);
     },
     hideNotification: () => {
         set({
