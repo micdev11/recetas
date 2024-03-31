@@ -8,10 +8,10 @@ export default function FavoritesPage() {
 
   return (
     <>
-      <h1 className="text-6xl font-extrabold">Favoritos</h1>
+      <h1 className="text-5xl font-extrabold text-center">Favoritos</h1>
 
       {hasFavorites ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 my-10 gap-10">
+        <div className="grid grid-cols-4 md:grid-cols-4 2xl:grid-cols-4 my-10 gap-11">
           {favorites.map( drink => (
               <DrinkCard
                 key={drink.idDrink}
@@ -20,7 +20,7 @@ export default function FavoritesPage() {
           ) )}
         </div>
       ) : (
-        <p className="my-10 text-center text-2xl">
+        <p className="my-10 text-center text-xl">
           Los favoritos se mostrarán aquí
         </p>
       )}

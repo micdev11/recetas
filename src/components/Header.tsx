@@ -79,7 +79,7 @@ export default function Header() {
                                 type='text'
                                 name='ingredient'
                                 className='p-3 w-full rounded-lg focus:outline-none'
-                                placeholder='Nombre o Ingrediente. Ej. Vodka, Tequila, Café'
+                                placeholder='Ej. Vodka, Tequila, Café, Limón'
                                 onChange={handleChange}
                                 value={searchFilters.ingredient}
                             />
