@@ -46,7 +46,7 @@ export default function Header() {
             <div className="mx-auto container px-5 py-16">
                 <div className="flex justify-between items-center">
                     <div>
-                        <img className="w-32" src="/logo.svg" alt="logotipo" />
+                        <img className="w-24" src="/logo.svg" alt="logotipo" />
                     </div>
 
                     <nav className='flex gap-4'>
@@ -65,7 +65,7 @@ export default function Header() {
 
                 { isHome && (
                     <form
-                        className='md:w-1/2 2xl:w-1/3 bg-orange-400 my-32 p-10 rounded-lg shadow space-y-6'
+                        className='md:w-1/2 2xl:w-1/3 bg-orange-400 my-20 p-10 rounded-lg shadow space-y-6'
                         onSubmit={handleSubmit}
                     >
                         <div className='space-y-4'>
