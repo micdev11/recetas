@@ -32,7 +32,7 @@ export default function Notification() {
                                       {notification.error ? (
                                             <XCircleIcon className='h-6 w-6 text-red-400' aria-hidden="true" />
                                       ) : (
-                                            <CheckCircleIcon className='h-6 w-6 text-green-400' aria-hidden="true" />
+                                            <CheckCircleIcon className='h-6 w-6 text-green-500' aria-hidden="true" />
                                       )}
                                 </div>
                                 <div className="ml-3 w-0 flex-1 pt-0.5">
