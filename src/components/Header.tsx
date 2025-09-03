@@ -53,12 +53,12 @@ export default function Header() {
                         <NavLink
                             to="/"
                             className={({ isActive }) =>
-                                isActive ? 'text-orange-500 uppercase font-bold' : 'text-white uppercase font-bold'
+                                isActive ? 'text-orange-400 uppercase font-bold' : 'text-white uppercase font-bold'
                             }>Inicio</NavLink>
                         <NavLink
                             to="/favoritos"
                             className={({ isActive }) =>
-                                isActive ? 'text-orange-500 uppercase font-bold' : 'text-white uppercase font-bold'
+                                isActive ? 'text-orange-400 uppercase font-bold' : 'text-white uppercase font-bold'
                             }>Favoritos</NavLink>
                     </nav>
                 </div>
