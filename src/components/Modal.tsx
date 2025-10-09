@@ -40,7 +40,7 @@ export default function Modal() {
                     leaveFrom="opacity-100"
                     leaveTo="opacity-0"
                 >
-                    <div className="fixed inset-0 bg-black bg-opacity-70" />
+                    <div className="fixed inset-0 bg-black bg-opacity-60" />
                 </Transition.Child>
 
                 <div className="fixed inset-0 overflow-y-auto">
@@ -64,7 +64,7 @@ export default function Modal() {
                                 alt={`Imagen de ${selectedRecipe.strDrink}`}
                                 className='mx-auto w-96'
                             />
-                            <Dialog.Title as="h3" className="text-gray-900 text-2xl font-extrabold my-5">
+                            <Dialog.Title as="h3" className="text-gray-800 text-2xl font-extrabold my-5">
                                 Ingredientes y Cantidades
                             </Dialog.Title>
 
